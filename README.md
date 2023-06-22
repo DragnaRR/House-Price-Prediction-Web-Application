@@ -49,23 +49,23 @@ Among these attributes like Area type, Society, Balcony and Availablity are irre
 
 Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration.
 
-![API](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/blob/main/screenshot/postmanAPI.PNG)
+![API](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/assets/95096810/28c50fe0-62c4-4bfb-a568-50a2a892759a)
 
 - It shows that the get and post request on local machine is working fine
 
-![API_col](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/blob/main/screenshot/postmanCOL.PNG)
+![API COL](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/assets/95096810/c2091f84-5f5a-46fc-980f-a8a1dd55d287)
 
 - Getting all the location names for dynamic web page
 ## Flow chart of the application
 
-![flowchart](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/blob/main/screenshot/flowchart.PNG)
+![flowchart](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/assets/95096810/25e31ade-2ed1-4b8c-ac4a-2ce4fe599223)
 ## NGINX
 
 Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.
 
 By default, NGINX directs to a root index.html file. So, the path to the project's homepage and the name of the file should be mentioned inside the NGINX.conf file.
 
-![nginx_config_path](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/blob/main/screenshot/nginx_config_path.PNG)
+![nginx config path](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/assets/95096810/03d143f6-c4cb-484d-a722-f115dafe3a8f)
 
 For Example: 
 ```
@@ -87,7 +87,7 @@ ocation /api/ {
 
 WinSCP is a free and open-source SSH File Transfer Protocol, File Transfer Protocol, WebDAV, Amazon S3, and secure copy protocol client for Microsoft Windows. Its main function is secure file transfer between a local computer and a remote server.
 
-![winSCP](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/blob/main/screenshot/winscp.PNG)
+![winSCP](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/assets/95096810/e8e9e924-7834-44cd-a742-608b0c60b182)
 
 - Host name is the public DNS provided by AWS
 - password would be the .pem file provided by AWS during EC2 instance creation
@@ -141,7 +141,7 @@ server {
 ```
 - reverse proxy specifying that flask server will run on port number 5000 and also giving the path to homepage
 
-![BHP](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/blob/main/screenshot/bhp.PNG)
+![BHP](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/assets/95096810/b159531f-8318-4eca-8b75-02372361ab3e)
 
 Then, create symlink for sites-enabled and restart the nginx
 ```
@@ -161,7 +161,7 @@ python3 server.py
 
 ## Screenshot of Web Application
 
-![Project](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/blob/main/screenshot/project.PNG)
+![Project](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/assets/95096810/85667e26-597d-48ca-80a2-6035e647c79b)
 
 
 
@@ -172,4 +172,4 @@ python3 server.py
 ## Conclusion
 The experimental result shows that among all the algorithms, linear regression gives the highest accuracies ranging from 82.7% to 86% and is considered to be the best model for home price prediction application.
 
-![result](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/blob/main/screenshot/result.PNG)
+![result](https://github.com/DragnaRR/House-Price-Prediction-Web-Application/assets/95096810/069666e5-6c0d-4223-b7f3-8ba24f518474)
